@@ -70,6 +70,7 @@ class Cursor {
       this.pos.curr = {
         x: e.clientX - 8,
         y: e.clientY - 8,
+        
       };
       this.cursor.classList.remove("hidden");
     };
@@ -92,3 +93,5 @@ class Cursor {
 }
 
 export default cursorInit;
+
+
